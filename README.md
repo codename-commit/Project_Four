@@ -4,7 +4,7 @@
 
 ## Preview
 
-[![Project Four Preview](https://ibb.co/nj7nn0V)](https://ibb.co/nj7nn0V)
+[![Project Four Preview](https://i.ibb.co/2dvss6L/preview3.png)](https://i.ibb.co/2dvss6L/preview3.png)
 
 **[View Live Preview](https://codename-commit.github.io/Project_Four/)**
 
