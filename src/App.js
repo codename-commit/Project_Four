@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "./img/shokilogo.png";
+import logo from "./img/rmlogodark.png";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Section from "./Components/Section";
@@ -12,7 +12,8 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const Logo = glamorous.div({
   // backgroundColor: 'red',
   position: 'fixed',
-  marginTop: '10px',
+  marginTop: '-50px',
+
   // max-width: 900px;
   padding: "0rem 3rem",
   // margin: "0 auto",
@@ -20,6 +21,7 @@ const Logo = glamorous.div({
   justifyContent: "space-between",
   // alignItems: "center",
   // height: "100%",
+  // width: "50%"
 })
 
 let renderCount = 0;
@@ -35,9 +37,10 @@ class App extends Component {
         <Logo>
         <img
             src={logo}
-            className="nav-logo"
+            className="nav-logo-main"
             alt="Logo"
             onClick={this.scrollToTop}
+            
           />
         </Logo>
         <Section

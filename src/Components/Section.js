@@ -1,6 +1,7 @@
 import React from "react";
 import glamorous from 'glamorous'
 import logo from "../img/shokilogo2.jpg";
+import Background from "../img/Garage concrete texture-1.jpg"
 import About from "../Components/aboutme";
 import Contact from "../Components/contact";
 import ContactMe from "../Components/contactme"
@@ -39,8 +40,8 @@ const Profession = glamorous.p({
 
 export default function Section({ title, subtitle, dark, id, intro, name, profession, section }) {
   return (
-    <div className={"section" + (dark ? " section-dark" : "")}>
-      <div className="section-content" id={id}>
+    <div className={"section" + (dark ? " section-first" : "")} style={{ backgroundImage: 'url(' + Background + ')'}}>
+      <div className="section-content" id={id} style={{backgroundColor: ''}}>
         <h1>{title}</h1>
         {/* <p>{subtitle}</p> */}
         {section === "home" ? 

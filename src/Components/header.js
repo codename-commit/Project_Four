@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../img/logo.png";
+import logo from "../img/rmlogo.png";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 import glamorous from 'glamorous'

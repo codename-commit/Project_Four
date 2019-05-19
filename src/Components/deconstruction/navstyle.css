@@ -1,0 +1,24 @@
+.BtnActive {
+    background-color: White;
+    font-weight: bold;
+    border: 5px solid gray;
+    border-style: none none solid none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+.BtnDisabled {
+    /* background-color: #e7e7e7; Green */
+    /* border: 1px solid gray; */
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

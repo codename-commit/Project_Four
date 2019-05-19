@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import AboutMe from "../aboutme";
 import glamorous from "glamorous";
+import "./navstyle.css"
 
 const MainContainer = glamorous.div({
     width: "115%",
@@ -52,10 +53,10 @@ class InnerLinks extends Component {
     return (
       <MainContainer>
          <TabButtonContainer class="Tab">
-            <TabButton class="tablinks" id="aboutme" onClick={this.setActiveButton}>ABOUT ME </TabButton>
-            <TabButton class="tablinks" id="resume" onClick={this.setActiveButton}>RESUME</TabButton>
-            <TabButton class="tablinks" id="portfolios" onClick={this.setActiveButton}>PROJECTS</TabButton>
-            <TabButton class="tablinks" id="blog" onClick={this.setActiveButton}>BLOG</TabButton>
+            <TabButton class="tablinks" className={this.state.btnActive === "aboutme" ? "BtnActive" : "BtnDisabled"} id="aboutme" onClick={this.setActiveButton}>ABOUT ME </TabButton>
+            <TabButton class="tablinks" className={this.state.btnActive === "resume" ? "BtnActive" : "BtnDisabled"} id="resume" onClick={this.setActiveButton}>RESUME</TabButton>
+            <TabButton class="tablinks" className={this.state.btnActive === "portfolios" ? "BtnActive" : "BtnDisabled"} id="portfolios" onClick={this.setActiveButton}>PROJECTS</TabButton>
+            <TabButton class="tablinks" className={this.state.btnActive === "blog" ? "BtnActive" : "BtnDisabled"} id="blog" onClick={this.setActiveButton}>BLOG</TabButton>
          </TabButtonContainer>
             <br />
              {/* {this.state.btnActive}    */}

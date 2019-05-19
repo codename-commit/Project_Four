@@ -12,8 +12,15 @@
 }
 
 .nav-logo {
-  height: 60px;
-  width: 60px;
+  margin-left: -8vw;
+  margin-top: -30px;
+  height: 140px;
+  width: 140px;
+}
+.nav-logo-main {
+  height: 200px;
+  width: 200px;
+  filter: invert(-100%);
 }
 
 .nav-logo:hover {
@@ -28,6 +35,12 @@
   justify-content: space-between;
   align-items: center;
   min-height: 100%;
+}
+
+.nav-items {
+  margin-top: -20px;
+  margin-right: -2vw;
+  
 }
 
 .nav-item {
@@ -47,6 +60,12 @@
 
 .section-dark {
   background: #333;
+  color: white;
+}
+
+.section-first {
+  /* background: #000000; */
+  background-image: url("./img/GarageConcreteTexture.jpg");
   color: white;
 }
 
