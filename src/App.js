@@ -46,6 +46,7 @@ class App extends Component {
         <Section
           title=""
           subtitle={""}
+          // first={"first"}
           dark={true}
           id="section1"
           intro={"Hi, I'm"}

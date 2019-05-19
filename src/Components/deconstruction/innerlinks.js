@@ -4,15 +4,18 @@ import glamorous from "glamorous";
 import "./navstyle.css"
 
 const MainContainer = glamorous.div({
-    width: "115%",
-    // backgroundColor: "blue",
-    marginTop: "-50px"
+    width: "100%",
+    backgroundColor: "purple",
+    marginTop: "-50px",
+    textAlign: "center"
+    // marginLeft: "-3vw"
 })
 
 const TabButtonContainer = glamorous.div({
-//  backgroundColor: rgba(76, 175, 80, 0.3),
+ backgroundColor: "orange",
 //  position: "float",
-//  marginRight: "-80px",
+//  marginRight: "-2vw",
+width: "82vw",
 textAlign: "right",
 })
 

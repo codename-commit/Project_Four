@@ -43,23 +43,22 @@ const Body = glamorous.p({
 class About extends Component {
   render() {
     return(
-      <div style={{marginLeft:'-10vw', backgroundColor:'', width: '75vw'}}>
+      <div style={{marginLeft:'', backgroundColor:'pink', width: '60vw', padding:'10px'}}>
 
         {/* <h1 style={{fontWeight:"bold", textAlign:'center'}} >About Me</h1> */}
       
-        <Cell col={12} id='contentWrapper' style={{display:'flex',flex:1, backgroundColor:'', width:'1100px', margin:'center'}}>
+        <Cell col={12} id='contentWrapper' style={{display:'flex',flex:1, backgroundColor:'', width:'', margin:'center'}}>
           <IMG
-              style={{width:'442px',height: '100%', marginRight:'0px'}}
+              style={{width:'21vw',height: '100%', marginRight:'0px'}}
               src={ProfilePicture}
               alt="avatar"
               className="avatar-img"
               />
           <div></div>
-          <div id='actualContent' style={{backgroundColor:'', marginLeft: '20px', marginTop:'10px', width:'650px' }}>
+          <div id='actualContent' style={{backgroundColor:'green', marginLeft: '20px', marginTop:'10px', width:'38vw' }}>
             <Title style={{fontWeight:"bold"}}>Greeting, I'm Shoki Madileng.</Title>
             <Body>
             I'm a young developer based in Bellevue, Johannesburg and at the moment I focus my work on Web Applications, but anyway I'm a curious person and I love to build creatives' ideas into a reality. <br/>
-            <Body>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Body> 
             
             </Body>
             <Body>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</Body> 
