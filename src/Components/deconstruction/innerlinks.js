@@ -5,14 +5,19 @@ import "./navstyle.css"
 
 const MainContainer = glamorous.div({
     width: "100%",
-    backgroundColor: "purple",
+    backgroundColor: "",
     marginTop: "-50px",
-    textAlign: "center"
+    // textAlign: "center",
+        // position: "absolute",
+        // left:" 50%",
+        // top:" 50%",
+        // transform: translate(-50%, -50%);
+    
     // marginLeft: "-3vw"
 })
 
 const TabButtonContainer = glamorous.div({
- backgroundColor: "orange",
+ backgroundColor: "",
 //  position: "float",
 //  marginRight: "-2vw",
 width: "82vw",

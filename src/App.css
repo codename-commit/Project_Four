@@ -30,7 +30,7 @@
 .nav .nav-content {
   max-width: 80vw;
   /* width: 61vw; */
-  background-color: #f48fb1;
+  /* background-color: #f48fb1; */
   padding: 0rem 3rem;
   margin: 0 auto;
   display: flex;
@@ -80,7 +80,7 @@
 .tabcontent {
   /* text-align: center; */
   padding: 20px;
-  text-align: center
+  /* text-align: center */
 }
 
 
