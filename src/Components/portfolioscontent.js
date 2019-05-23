@@ -2,18 +2,15 @@ import React, { Component } from "react";
 import "./portfolioscontentstyles.scss"
 
 const imgUrls = [
-  "https://picsum.photos/200/300",
-  "https://picsum.photos/id/237/200/300",
-  "https://picsum.photos/id/237/200/300",
-  "https://picsum.photos/id/237/200/300",
-  "https://picsum.photos/200/300?grayscale",
-  "https://picsum.photos/id/237/200/300",
-  "https://picsum.photos/id/237/200/300",
-  "https://picsum.photos/id/237/200/300",
-  "https://picsum.photos/200/300/?blur",
-  "https://picsum.photos/id/237/200/300",
-  "https://picsum.photos/id/870/200/300?grayscale",
-  "https://picsum.photos/id/237/200/300"
+  "https://picsum.photos/300/300",
+  "https://picsum.photos/id/237/300/300",
+  "https://picsum.photos/id/237/300/300",
+  "https://picsum.photos/id/237/300/300",
+  "https://picsum.photos/300/300?grayscale",
+  "https://picsum.photos/id/237/300/300",
+  "https://picsum.photos/300/300/?blur",
+  "https://picsum.photos/id/237/300/300",
+  "https://picsum.photos/id/237/300/300"
 ];
 
 class PortfoliosContent extends Component {
@@ -84,7 +81,7 @@ class GalleryModal extends React.Component {
   componentDidMount() {
     document.body.addEventListener("keydown", this.handleKeyDown);
   }
-  componentWillUnMount() {
+  componentWillUnmount() {
     document.body.removeEventListener("keydown", this.handleKeyDown);
   }
   handleKeyDown(e) {
