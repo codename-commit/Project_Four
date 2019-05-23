@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import AboutMe from "../aboutme";
+import Portfolios from "../portfolios"
 import glamorous from "glamorous";
 import "./navstyle.css"
+import PDFView from "../pdfview";
 
 const MainContainer = glamorous.div({
     width: "100%",
@@ -77,14 +79,14 @@ class InnerLinks extends Component {
 
             : this.state.btnActive === "resume" ?
                 <div id="resume" class="tabcontent">
-                <h3>Resume</h3>
-                <p>Resume Content</p> 
+                    <br />
+                <PDFView />
                 </div>
 
             : this.state.btnActive === "portfolios" ?
                 <div id="portfolios" class="tabcontent">
-                <h3>Portfolios</h3>
-                <p>Portfolios Content</p>
+                    <br />
+                    <Portfolios />
                 </div>
 
             : this.state.btnActive === "blog" ?
