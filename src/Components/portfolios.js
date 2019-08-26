@@ -71,7 +71,7 @@ class Portfolios extends Component {
         {/* <h1 style={{fontWeight:"bold", textAlign:'center'}} >About Me</h1> */}
       
         <Cell col={12} id='contentWrapper' style={{display:'flex',flex:1, backgroundColor:'', width:'', margin:'center'}}>
-          <PortfoliosContent />
+          {/* <PortfoliosContent /> */}
         </Cell>
       </div>
     )

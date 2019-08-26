@@ -6,7 +6,8 @@ import glamorous from 'glamorous'
 
 const Container = glamorous.div({
   marginTop: '-20px',
-  width: ''
+  width: '',
+  position: 'relative'
 })
 const Img = glamorous.img({
   // paddingLeft: "-5000px"

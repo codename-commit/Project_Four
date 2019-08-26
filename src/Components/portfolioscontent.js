@@ -56,7 +56,7 @@ class PortfoliosContent extends Component {
   }
   render() {
     return (
-      <div className="gallery-container">
+      <div className="gallery-container" style="">
         <div className="gallery-grid">
           {imgUrls.map(this.renderImageContent)}
         </div>

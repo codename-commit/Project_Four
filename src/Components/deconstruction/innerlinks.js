@@ -18,6 +18,20 @@ const MainContainer = glamorous.div({
     // marginLeft: "-3vw"
 })
 
+const InnerContainer = glamorous.div({
+    width: "100%",
+    backgroundColor: "",
+    marginTop: "-50px",
+    fontFamily: "Lucida Console"
+    // textAlign: "center",
+        // position: "absolute",
+        // left:" 50%",
+        // top:" 50%",
+        // transform: translate(-50%, -50%);
+    
+    // marginLeft: "-3vw"
+})
+
 const TabButtonContainer = glamorous.div({
  backgroundColor: "",
 //  position: "float",
@@ -61,7 +75,7 @@ class InnerLinks extends Component {
 
   render() {
     return (
-      <MainContainer>
+      <MainContainer >
          <TabButtonContainer class="Tab">
             <TabButton class="tablinks" className={this.state.btnActive === "aboutme" ? "BtnActive" : "BtnDisabled"} id="aboutme" onClick={this.setActiveButton}>ABOUT ME </TabButton>
             <TabButton class="tablinks" className={this.state.btnActive === "resume" ? "BtnActive" : "BtnDisabled"} id="resume" onClick={this.setActiveButton}>RESUME</TabButton>
@@ -71,6 +85,7 @@ class InnerLinks extends Component {
             <br />
              {/* {this.state.btnActive}    */}
 
+            <InnerContainer style={{backgroundColor:'blue', textAlign: '', justifyContent: "center", display: "flex"}}>
              { this.state.btnActive === "aboutme" ? 
                 <div id="aboutme" class="tabcontent">
                     <br />
@@ -96,7 +111,7 @@ class InnerLinks extends Component {
                 </div>
             : "" 
             }    
-        
+            </InnerContainer>
       </MainContainer>
     );
   }

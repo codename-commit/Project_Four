@@ -64,19 +64,19 @@ const Body = glamorous.p({
 class About extends Component {
   render() {
     return(
-      <div style={{marginLeft:'', backgroundColor:'', width: '60vw', padding:'', position:'relative', left: '12%'}}>
+      <div style={{marginLeft:'', backgroundColor:'red', width: '60vw', padding:'', position:'', left: ''}}>
 
         {/* <h1 style={{fontWeight:"bold", textAlign:'center'}} >About Me</h1> */}
       
         <Cell col={12} id='contentWrapper' style={{display:'flex',flex:1, backgroundColor:'', width:'', margin:'center'}}>
           <IMG
-              style={{width:'21vw',height: '100%', marginRight:'0px'}}
+              style={{width:'21vw',height: '100%', marginRight:'0px', borderRadius: "1%"}}
               src={ProfilePicture}
               alt="avatar"
               className="avatar-img"
               />
           <div></div>
-          <div id='actualContent' style={{backgroundColor:'', marginLeft: '20px', marginTop:'10px', width:'38vw', padding: '9px 4px' }}>
+          <div id='actualContent' style={{backgroundColor:'yellow', marginLeft: '20px', marginTop:'10px', width:'38vw', padding: '9px 4px' }}>
             <Title style={{fontWeight:"bold"}}>Greeting, I'm Shoki Madileng.</Title>
             <Body>
             I'm a young developer based in Bellevue, Johannesburg and at the moment I focus my work on Web Applications, but anyway I'm a curious person and I love to build creatives' ideas into a reality. <br/>
@@ -102,8 +102,9 @@ class About extends Component {
             </table>
 
 
+
                {/* <A style={{fontWeight:"bold"}} > Phone: </A> +27 (xxx) xxx-xxxx <br/> <A style={{fontWeight:"bold"}} > Mail: </A> xxxxxx@gmail.com <br/> <A style={{fontWeight:"bold"}} > linkedin: </A> MaShokisi  */}</Body>
-            <Button style={{marginLeft:'0px', marginTop:'10px'}}>SEND A MESSAGE</Button>
+            {/* <Button style={{marginLeft:'0px', marginTop:'10px'}}>SEND A MESSAGE</Button> */}
           </div>
         </Cell>
       </div>
