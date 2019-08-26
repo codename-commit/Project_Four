@@ -41,7 +41,7 @@ const Profession = glamorous.p({
 export default function Section({ title, subtitle, dark, id, intro, name, profession, section }) {
   return (
     <div className={"section" + (dark ? " section-first" : "")} style={{ backgroundImage: 'url(' + Background + ')', width: ""}}>
-      <div className="section-content" id={id} style={{backgroundColor: 'pink', width: '80vw'}}>
+      <div className="section-content" id={id} style={{backgroundColor: '', width: '80vw'}}>
         <h1>{title}</h1>
         {/* <p>{subtitle}</p> */}
         {section === "home" ? 

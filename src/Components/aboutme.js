@@ -64,7 +64,7 @@ const Body = glamorous.p({
 class About extends Component {
   render() {
     return(
-      <div style={{marginLeft:'', backgroundColor:'red', width: '60vw', padding:'', position:'', left: ''}}>
+      <div style={{marginLeft:'', backgroundColor:'', width: '60vw', padding:'', position:'', left: ''}}>
 
         {/* <h1 style={{fontWeight:"bold", textAlign:'center'}} >About Me</h1> */}
       
@@ -76,7 +76,7 @@ class About extends Component {
               className="avatar-img"
               />
           <div></div>
-          <div id='actualContent' style={{backgroundColor:'yellow', marginLeft: '20px', marginTop:'10px', width:'38vw', padding: '9px 4px' }}>
+          <div id='actualContent' style={{backgroundColor:'', marginLeft: '20px', marginTop:'10px', width:'38vw', padding: '9px 4px' }}>
             <Title style={{fontWeight:"bold"}}>Greeting, I'm Shoki Madileng.</Title>
             <Body>
             I'm a young developer based in Bellevue, Johannesburg and at the moment I focus my work on Web Applications, but anyway I'm a curious person and I love to build creatives' ideas into a reality. <br/>

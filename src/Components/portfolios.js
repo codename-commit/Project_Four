@@ -66,7 +66,7 @@ const Body = glamorous.p({
 class Portfolios extends Component {
   render() {
     return(
-      <div style={{marginLeft:'', backgroundColor:'red', width: '60vw', padding:'', position:'relative', left: '12%', justifyContent:'right'}}>
+      <div style={{marginLeft:'', backgroundColor:'', width: '60vw', padding:'', position:'relative', left: '12%', justifyContent:'right'}}>
 
         {/* <h1 style={{fontWeight:"bold", textAlign:'center'}} >About Me</h1> */}
       

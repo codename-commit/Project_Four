@@ -43,7 +43,7 @@ textAlign: "right",
 const TabButton = glamorous.button({
     // marginTop: "-40px",
     // paddingLeft: "-1000px",
-    fontWeight: "bold",
+    fontWeight: "",
     backgroundColor: "inherit",
     // float: "right",
     border: "none",
@@ -85,7 +85,7 @@ class InnerLinks extends Component {
             <br />
              {/* {this.state.btnActive}    */}
 
-            <InnerContainer style={{backgroundColor:'blue', textAlign: '', justifyContent: "center", display: "flex"}}>
+            <InnerContainer style={{backgroundColor:'', textAlign: '', justifyContent: "center", display: "flex"}}>
              { this.state.btnActive === "aboutme" ? 
                 <div id="aboutme" class="tabcontent">
                     <br />
