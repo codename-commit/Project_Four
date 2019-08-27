@@ -46,7 +46,7 @@ body {
   // }	
   img {
     width: 100%;
-    border: 5px solid #fff;
+    border: 1px solid rgb(0, 0, 0);
   }
 }
 .gallery-grid div {
@@ -61,7 +61,7 @@ body {
     font-size: 80px;
     position: absolute;
     transform: translate3d(-50%, -50%, 0) rotate(-45deg);
-    color: #fff;
+    color: rgb(122, 0, 0);
     left: 50%;
     top: 50%;
     display: block;
@@ -103,7 +103,7 @@ body {
   // }	
   img {
     width: 100%;
-    border: 5px solid #fff;
+    border: 1px solid rgb(119, 119, 119);
   }
 }
 
@@ -124,7 +124,7 @@ body {
   line-height: 36px;
   font-size: 30px;
   font-weight: lighter;
-  background: #fff;
+  background: rgb(255, 255, 255);
   border-radius: 5px;
   height: 40px; width: 40px;
   text-align: center;

@@ -66,12 +66,14 @@ const Body = glamorous.p({
 class Portfolios extends Component {
   render() {
     return(
-      <div style={{marginLeft:'', backgroundColor:'', width: '60vw', padding:'', position:'relative', left: '12%', justifyContent:'right'}}>
+      <div style={{marginLeft:'', backgroundColor:'', width: '60vw', padding:'', position:'', left: '12%', justifyContent:'center'}}>
 
         {/* <h1 style={{fontWeight:"bold", textAlign:'center'}} >About Me</h1> */}
       
-        <Cell col={12} id='contentWrapper' style={{display:'flex',flex:1, backgroundColor:'', width:'', margin:'center'}}>
-          {/* <PortfoliosContent /> */}
+        <Cell col={12} id='contentWrapper' style={{display:'',flex:1, backgroundColor:'', width:'', margin:'center', justifyContent: 'center'}}>
+          {/* <h1 style={{fontWeight:"bold", textAlign:'center', backgroundColor:""}} >About Me</h1> */}
+            <br />
+           <PortfoliosContent />
         </Cell>
       </div>
     )

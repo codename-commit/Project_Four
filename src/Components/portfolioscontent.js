@@ -56,8 +56,8 @@ class PortfoliosContent extends Component {
   }
   render() {
     return (
-      <div className="gallery-container" style="">
-        <div className="gallery-grid">
+      <div className="gallery-container" style={{backgroundColor:""}}>
+        <div className="gallery-grid" style={{backgroundColor:""}}>
           {imgUrls.map(this.renderImageContent)}
         </div>
         <GalleryModal
@@ -105,8 +105,8 @@ class GalleryModal extends React.Component {
     return (
       <div>
         <div className="modal-overlay" onClick={closeModal} />
-        <div isOpen={!!src} className="modal">
-          <div className="modal-body">
+        <div isOpen={!!src} className="modal" style={{backgroundColor:""}}>
+          <div className="modal-body" style={{backgroundColor:""}}>
             <a
               href="#"
               className="modal-close"
