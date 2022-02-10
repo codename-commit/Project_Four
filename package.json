@@ -9,7 +9,7 @@
     "glamor": "^2.20.40",
     "glamorous": "^5.0.0",
     "mgr-pdf-viewer-react": "^1.0.3",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "npm": "^6.11.2",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
